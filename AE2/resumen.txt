@@ -1,0 +1,33 @@
+RESUMEN DE LA ACTIVIDAD AE2
+============================================================
+Generador: GeneradorResumenTXT.generar()
+
+FORMATO: CSV
+------------------------------------------------------------
+URL de origen: https://huggingface.co/datasets/scikit-learn/iris/resolve/main/Iris.csv
+Archivo importado: originales/Iris.csv
+Archivo guardado: modificados/Iris_modificado.csv
+Clase utilizada: ManejadorCSV
+Metodos utilizados: ManejadorCSV.importar(), ManejadorCSV.modificar(), ManejadorCSV.guardar()
+Registros importados: 150
+Registros guardados: 150
+Modificaciones realizadas: 1
+  Registro (indice desde 0): 0
+  Campo: SepalLengthCm
+  Antes: '5.1'
+  Despues: '5.2'
+
+FORMATO: JSON
+------------------------------------------------------------
+URL de origen: https://huggingface.co/datasets/osunlp/HippoRAG_2/resolve/main/case_study_university.json
+Archivo importado: originales/case_study_university.json
+Archivo guardado: modificados/case_study_university_modificado.json
+Clase utilizada: ManejadorJSON
+Metodos utilizados: ManejadorJSON.importar(), ManejadorJSON.modificar(), ManejadorJSON.guardar()
+Registros importados: 1
+Registros guardados: 1
+Modificaciones realizadas: 1
+  Registro (indice desde 0): 0
+  Campo: question
+  Antes: "Which Stanford University professor works on Alzheimer's?"
+  Despues: '¿Qué profesores de la Universidad de Stanford investigan la enfermedad de Alzheimer?'
