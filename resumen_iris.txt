@@ -1,0 +1,28 @@
+RESUMEN DEL DATAFRAME
+============================================================
+Cantidad de filas: 150
+Cantidad de columnas: 6
+Total de valores nulos: 0
+
+COLUMNAS, TIPOS DE DATOS Y VALORES NULOS
+------------------------------------------------------------
+              Tipo de dato  Valores nulos
+Columna                                  
+Id                   int64              0
+SepalLengthCm      float64              0
+SepalWidthCm       float64              0
+PetalLengthCm      float64              0
+PetalWidthCm       float64              0
+especie                str              0
+
+ESTADÍSTICAS DESCRIPTIVAS
+------------------------------------------------------------
+           Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm
+count  150.00         150.00        150.00         150.00        150.00
+mean    75.50           5.84          3.05           3.76          1.20
+std     43.45           0.83          0.43           1.76          0.76
+min      1.00           4.30          2.00           1.00          0.10
+25%     38.25           5.10          2.80           1.60          0.30
+50%     75.50           5.80          3.00           4.35          1.30
+75%    112.75           6.40          3.30           5.10          1.80
+max    150.00           7.90          4.40           6.90          2.50
